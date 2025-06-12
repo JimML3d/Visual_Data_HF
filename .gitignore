@@ -1,2 +1,22 @@
-envs/  
-*.txt 
+# Ignore local Conda environments
+envs/
+
+# Ignore conda activation log or temp files
+*.txt
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Dataset and output files
+data/
+*.tif
+*.h5
+
+# Editor/IDE config
+.vscode/
+.idea/
+
+# Environment files (sensitive)
+.env
